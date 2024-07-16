@@ -13,18 +13,18 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © FOXSTORE OFFC                [+]${NC}"
+  echo -e "${BLUE}[+]                  © Malix Jawa Bet               [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
-  echo -e "𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 :"
-  echo -e "0853-7227-7748"
-  echo -e "𝗬𝗢𝗨𝗧𝗨𝗕𝗘 :"
-  echo -e "@foxstore_id"
-  echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
+  echo -e "WHATSAPP :"
+  echo -e "0831-5261-5606"
+  echo -e "INSTAGRAM :"
+  echo -e "@imron_dohc_"
+  echo -e "CREDIT :"
   echo -e "@Chiwa"
   sleep 4
   clear
@@ -58,7 +58,7 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY FOXSTORE OFFC             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY MALIX JAWA                [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   TOKEN=$(jq -r '.token' token.json)
@@ -66,7 +66,7 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "foxstore" ]; then
+  if [ "$USER_TOKEN" = "NGAWI" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}AKSES GAGAL${NC}"
@@ -83,7 +83,7 @@ install_theme() {
     echo -e "${BLUE}[+]                   SELECT THEME                  [+]${NC}"
     echo -e "${BLUE}[+] =============================================== [+]${NC}"
     echo -e "                                                       "
-    echo -e "PILIH THEME YANG INGIN DI INSTALL"
+    echo -e "MAU TEMA YANG MANA WAK?"
     echo "1. stellar"
     echo "2. billing"
     echo "3. enigma"
